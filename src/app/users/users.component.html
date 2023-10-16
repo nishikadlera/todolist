@@ -1,0 +1,28 @@
+<h3>USERS</h3>
+
+<table>
+    <thead>
+        <tr class="thead">
+            <th>Picture</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Company</th>
+            
+        </tr>
+        
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of userList" >
+            <td><img [src]="item.picture"></td>
+            <td>{{item.name}}</td>
+            <td>{{item.gender}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.company}}</td>
+        </tr>
+
+
+    </tbody>
+</table>

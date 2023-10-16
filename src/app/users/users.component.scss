@@ -1,0 +1,38 @@
+
+table{
+    thead{
+        tr{
+            height: 30px;  
+        }
+
+        th{
+          width: 150px;
+        }
+    
+    }
+    tbody{
+        tr{
+            height: 30px;  
+        }
+        td{
+            width: 150px;
+            text-align: center;
+        }
+
+    }
+    // thead tr th{
+    //     min-width: 80px;
+    //     max-width: 150px;
+    // }
+    // tbody tr{
+    //     height: 30px;
+    // }
+    // tbody tr th{
+    //     min-width: 80px;
+    //     max-width: 150px;
+    // }
+} 
+
+// table tbody tr{
+//     height: 30px;
+// }
